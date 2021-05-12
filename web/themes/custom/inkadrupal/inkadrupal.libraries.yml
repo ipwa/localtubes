@@ -1,0 +1,15 @@
+global-styling:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Rubik:900': { type: external, minified: true }
+      css/et-line_icon-font.css: {}
+      css/font-awesome_icon-font.css: {}
+      font-awesome/css/font-awesome.min.css: {}
+      css/plugins/animate.css: {}
+      css/style.css: {}
+      css/custom.css: {}
+  js:
+      js/plugins/wow.min.js: {}
+      js/plugins/jquery.fitvids.js: {}
+      js/plugins/jquery.magnific-popup.min.js: {}
+      js/apollo.js: {}

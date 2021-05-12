@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the InkaDrupal theme.
+
+inkadrupal.settings:
+  type: theme_settings
+  label: 'InkaDrupal settings'

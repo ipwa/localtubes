@@ -1,0 +1,262 @@
+/**
+ * Place your custom styles here.
+ */
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.client-logo img {
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+
+.path-frontpage .footer {
+  margin-top: 0;
+  border: 0;
+}
+
+.path-frontpage .page-header {
+  display: none;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-default {
+  border-radius: 30px;
+  color: #fff;
+  background-color: #2d74b2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.overlay-dark:before, 
+.overlay-dark20:before, 
+.overlay-dark30:before, 
+.overlay-dark40:before, 
+.overlay-dark60:before, 
+.overlay-dark80:before, 
+.overlay-dark90:before, 
+.overlay-light:before, 
+.overlay-light80:before {
+  display: block;
+}
+
+.dark-bg .owl-carousel .owl-controls .owl-page span,
+.post-media .owl-carousel .owl-controls .owl-page span {
+  background: #fff;
+  opacity: 0.9;
+  border: 1px solid #fff;
+}
+
+.dark-bg .owl-carousel .owl-controls .owl-page.active span,
+.post-media .owl-carousel .owl-controls .owl-page.active span {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+}
+
+.dark-bg .owl-theme .owl-controls.clickable .owl-page:hover span
+.post-media .owl-theme .owl-controls.clickable .owl-page:hover span {
+  border: 1px solid #fff;
+}
+
+.post-media .owl-theme .owl-controls {
+  text-align: center;
+  margin-top: -22px;
+}
+
+.toolbar-fixed .header.header-fixed {
+  top: 36px;
+}
+
+
+
+.owl-theme .owl-controls {
+  margin-top: 0;
+}
+.owl-carousel .owl-controls .owl-page.active span {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+}
+.owl-carousel .owl-controls .owl-page span {
+  background: #fff;
+  opacity: 1;
+  border: 0;
+}
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  border: 1px solid #fff;
+}
+
+.owl-theme-1:hover .owl-controls .owl-buttons .owl-prev,
+.owl-theme-1:hover .owl-controls .owl-buttons .owl-next {
+  background-color: transparent;
+}
+.owl-theme-1:hover .owl-controls .owl-buttons .owl-prev {
+  margin-left: 18px;
+}
+.owl-theme-1:hover .owl-controls .owl-buttons .owl-next {
+  margin-right: 12px;
+}
+
+
+.portafolio .display-wrapper {
+  background: url('../img/display.png') no-repeat;
+  padding: 54px 52px 212px;
+}
+
+.portafolio .field--name-field-image {
+  overflow: scroll;
+  height: 504px;
+  width: 896px;
+}
+
+
+.language-switcher-language-url {
+  float: right;
+}
+
+.language-switcher-language-url a {
+  background-repeat: none;
+  background-size: cover;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 19px;
+  opacity: .6;
+}
+
+.language-switcher-language-url li {
+  display: inline-block;
+}
+
+.language-switcher-language-url .en a {
+  background-image: url('../img/en.png');
+}
+
+.language-switcher-language-url .es a {
+  background-image: url('../img/es.png');
+  margin-right: 2px;
+}
+
+.language-switcher-language-url a:hover,
+.language-switcher-language-url .is-active a {
+  opacity: 1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.nav-menu ul.nav-menu-inner > li > a {
+    font-weight: bold;
+}
+
+.field--name-body img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.home-lesson-card-inner {
+    margin: 60px auto;
+    width: 90%;
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+}
+
+.headline-style-12, .entry-content .headline-style-12 {
+    display: block;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -.0125em;
+    margin-top: 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lesson-price {
+    color: #999;
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+}
+
+.home-lesson-content {
+    margin: 24px auto 0;
+    width: 92%;
+}
+
+.headline-style-13, .entry-content .headline-style-13, .default-entry-main .comment-respond h3 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: .01625em;
+    line-height: 40px;
+    margin-top: 0;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.entry-content .home-lesson-card .headline-style-13 {
+    margin-bottom: 10px;
+}
+
+.home-lesson-students {
+    margin: 10px auto 0;
+    width: 92%;
+}
+
+.lesson-link-container {
+    margin-top: 52px;
+}
+
+.pbxl {
+    padding-bottom: 72px;
+}
+
+
+.path-frontpage h2,
+.center {
+    text-align: center;
+}
+
+.home-lesson-card h3 {
+    margin-bottom: 14px;
+}
+
+.path-frontpage iframe {
+    margin: 40px auto 80px;
+    display: block;
+}
+
+#block-views-block-imagenes-block-1 h2 {
+    margin: 60px 0px;
+}
+
+.page-node-type-page h1.page-header {
+    display: none;
+}
+
+.inner-intro h1 {
+    text-transform: uppercase;
+}
+
+.page-node-type-page .content {
+    margin: 40px 0px;
+}
+
+.owl-pagination {
+  top: -50px;
+  position: relative;
+}

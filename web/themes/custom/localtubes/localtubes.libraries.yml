@@ -1,0 +1,5 @@
+global-styling:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Rubik:900': { type: external, minified: true }
+      css/style.css: {}

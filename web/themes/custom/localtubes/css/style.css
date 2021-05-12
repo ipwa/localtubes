@@ -1,0 +1,48 @@
+/**
+ * Place your custom styles here.
+ */
+
+
+#private-message-page .private-message-thread-full .field--name-private-messages .private-message .field--name-created {
+	float: none;
+}
+
+#private-message-page .private-message-thread-full .field--name-private-messages .private-message {
+  border: none;
+  margin-top: -1px;
+  padding: 5px;
+}
+
+#private-message-page .private-message-thread-full .field--name-private-messages .private-message .field--name-message {
+	background-color: #d4e8f1;
+	padding: 10px;
+}
+
+#private-message-page .private-message-thread-full .field--name-private-messages .private-message .field--name-message:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #d4e8f1;
+	border-left: 0;
+	margin-top: -20px;
+	margin-left: -5px;
+}
+
+#private-message-page .private-message-thread-full .field--name-private-messages .private-message .field--name-message img {
+	display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Rubik', sans-serif;
+}
+
+.owl-pagination {
+	   top: -50px;
+    position: relative;
+}
